@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingApp", "TestingApp\TestingApp.csproj", "{35366030-5188-4FD8-8595-F284A72AB8C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziLog", "IziLog\IziLog.csproj", "{2448EE4E-C3F0-4A35-8E46-400A93D7B95E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35366030-5188-4FD8-8595-F284A72AB8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35366030-5188-4FD8-8595-F284A72AB8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35366030-5188-4FD8-8595-F284A72AB8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35366030-5188-4FD8-8595-F284A72AB8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2448EE4E-C3F0-4A35-8E46-400A93D7B95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2448EE4E-C3F0-4A35-8E46-400A93D7B95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2448EE4E-C3F0-4A35-8E46-400A93D7B95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2448EE4E-C3F0-4A35-8E46-400A93D7B95E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {512F1E6E-4E3C-4FF7-AD73-47AB51F2D586}
+	EndGlobalSection
+EndGlobal
