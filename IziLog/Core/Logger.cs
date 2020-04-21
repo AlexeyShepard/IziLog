@@ -52,6 +52,21 @@ namespace IziLog
         {
             try
             {
+                TimeSpan Offset = new TimeSpan(Configuration.FileRotation, 0, 0, 0);
+
+                DateTime TimeToDelete = DateTime.Now - Offset;
+
+                File.Delete("C:\\ProgramData\\LOM\\Lom_" + TimeToDelete.ToString("yyyy-MM-dd") + ".log");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
+           
+            try
+            {                          
+                
                 using (FileStream FileStream = new FileStream(Configuration.PathToLogFile, FileMode.OpenOrCreate)) { }
 
                 Log(new InfoRecord("Создание файла конфигурации"));

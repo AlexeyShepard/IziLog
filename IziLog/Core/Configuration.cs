@@ -11,6 +11,8 @@ namespace IziLog
 
         private static string _PathToLogFile;
 
+        private static int _FileRotation;
+
         public static int DelayBeforeRecord = 10;
 
         public static int DelayBetweenRecord = 20;
@@ -23,6 +25,16 @@ namespace IziLog
                 else return _PathToLogFile;
             }
             set { _PathToLogFile = value; }
+        }
+
+        public static int FileRotation
+        {
+            get
+            {
+                if (_FileRotation == 0) throw new NullReferenceException();
+                else return _FileRotation;
+            }
+            set { _FileRotation = value; }
         }
     }
 }
