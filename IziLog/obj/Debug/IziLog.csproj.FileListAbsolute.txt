@@ -9,6 +9,5 @@ C:\Projects\izilogsource\IziLog\obj\Debug\IziLog.dll
 C:\Projects\izilogsource\IziLog\obj\Debug\IziLog.pdb
 C:\Projects\IziLog\IziLog\bin\Debug\IziLog.dll
 C:\Projects\IziLog\IziLog\bin\Debug\IziLog.pdb
-C:\Projects\IziLog\IziLog\obj\Debug\IziLog.csprojAssemblyReference.cache
 C:\Projects\IziLog\IziLog\obj\Debug\IziLog.dll
 C:\Projects\IziLog\IziLog\obj\Debug\IziLog.pdb

@@ -25,7 +25,7 @@ namespace IziLog
                 {               
                     DateTime CurrentTime = DateTime.Now;
                     string RecordContent = "";                 
-                    RecordContent += CurrentTime.ToString("dd.MM.yyyy hh:mm:ss.fffffff") + " | ";
+                    RecordContent += CurrentTime.ToString("dd.MM.yyyy H:mm:ss.fffffff") + " | ";
                     RecordContent += Record.TypeName + " |";
                     RecordContent += " " + Record.Message + "\n";
 
